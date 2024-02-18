@@ -64,7 +64,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a>Settings</a>
+              <Link href={"/products"}>Products</Link>
             </li>
             <li>
               <a>Logout</a>
