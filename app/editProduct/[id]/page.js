@@ -2,7 +2,7 @@ import EditProductForm from "@/app/components/EditProductForm";
 
 const getProductById = async id => {
   try {
-    const res = await fetch(`http://localhost:3000/api/product/${id}`, {
+    const res = await fetch(`https://nexr-app.vercel.app/api/product/${id}`, {
       cache: "no-store",
     });
 

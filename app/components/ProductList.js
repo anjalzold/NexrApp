@@ -88,7 +88,7 @@ console.log(products)
 
 const getProducts = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/product", {
+    const res = await fetch("https://nexr-app.vercel.app/api/product", {
       cache: "no-store",
     });
 

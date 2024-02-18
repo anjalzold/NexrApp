@@ -15,7 +15,7 @@ export default function EditProductForm({ id, name, image, price, category }) {
    e.preventDefault();
 
    try {
-     const res = await fetch(`http://localhost:3000/api/product/${id}`, {
+     const res = await fetch(`https://nexr-app.vercel.app/api/product/${id}`, {
        method: "PUT",
        headers: {
          "Content-type": "application/json",

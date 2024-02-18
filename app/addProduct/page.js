@@ -21,7 +21,7 @@ export default function AddProduct() {
     }
 
     try {
-      const res = await fetch("http://localhost:3000/api/product", {
+      const res = await fetch("https://nexr-app.vercel.app/api/product", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
